@@ -23,7 +23,7 @@ public class Barriers : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Enemy Projectile")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Enemy Projectile" || collision.gameObject.tag == "Bullet")
         {
             BarrierHealth();
             
