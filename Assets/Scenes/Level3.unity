@@ -1446,6 +1446,7 @@ GameObject:
   - component: {fileID: 279748506}
   - component: {fileID: 279748505}
   - component: {fileID: 279748504}
+  - component: {fileID: 279748509}
   - component: {fileID: 279748508}
   m_Layer: 0
   m_Name: Enemys
@@ -1580,6 +1581,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winPanel: {fileID: 1847801444}
+--- !u!114 &279748509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279748503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd72f0a8ac669eb449badfc95a1cbc94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &291393659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +1799,7 @@ MonoBehaviour:
   moveSpeed: 5
   hInput: 0
   projectilePrefab: {fileID: 5267012867308004402, guid: 3c64b7e342c90224fb76d529c640d777, type: 3}
-  fireRate: 0.5
+  fireRate: 0.2
 --- !u!61 &291622574
 BoxCollider2D:
   m_ObjectHideFlags: 0
